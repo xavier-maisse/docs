@@ -63,7 +63,7 @@ spécial dans votre classe Entity::
 
 Maintenant, vous pouvez trouver toutes les traductions pour une seule entity::
 
-    $article = $this->Articles->>find('translations')->first();
+    $article = $this->Articles->find('translations')->first();
     echo $article->translation('es')->title; // 'Un Artículo'
 
     echo $article->translation('en')->title; // 'An Article';
